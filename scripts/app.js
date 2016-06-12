@@ -1,1 +1,6 @@
-angular.module("todoListApp", []);//2nd parameter are dependents 
+angular.module("todoListApp", [])
+.controller('mainCtrl', function($scope){
+  $scope.helloworld = function(){
+    console.log("hi");
+  };
+});
